@@ -14,7 +14,7 @@ title: Milo Simpson | Milo Simpson
 
 ## the Setup
 
-[The Setup](/theSetup/.html)
+[The Setup](/theSetup.html)
 
 ## Blog
 
