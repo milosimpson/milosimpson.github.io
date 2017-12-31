@@ -15,44 +15,11 @@ title: Milo Simpson | Milo Simpson
 ## Blog
 
 [All posts](/blog.html)
-{% for post in site.categories.tech limit: 3 %}
-- `{{ post.date | date: "%Y-%m-%d" }}` - [{{ post.title }}]({{ post.url }}) {% endfor %}
 
 ## Projects
 
 - [Jolt](https://github.com/bazaarvoice/jolt), a Java Json to Json transform tool
 
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/milosimpson/milosimpson.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
