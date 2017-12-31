@@ -7,5 +7,10 @@ layout: default
 Documenting how I setup all the things.
 
 {% for page in site.theSetup %}
-- `{{ page.date | date: "%Y-%m-%d" }}` - [{{ page.title }}]({{ page.url }}) {% endfor %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>
+        <p>{{ page.hook }}</p>
+      </li>
+{% endfor %}
+
 

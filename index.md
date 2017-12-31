@@ -12,7 +12,7 @@ title: Milo Simpson | Milo Simpson
 
 - [GitHub](https://github.com/milosimpson)
 
-## the Setup
+## The Setup
 
 [The Setup](/theSetup.html)
 

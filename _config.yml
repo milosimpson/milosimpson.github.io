@@ -2,3 +2,8 @@ theme: jekyll-theme-cayman
 
 title: Kikkoman
 description: Free static blog host on Github?
+
+collections:
+  theSetup :
+    output: true
+
