@@ -12,9 +12,14 @@ title: Milo Simpson | Milo Simpson
 
 - [GitHub](https://github.com/milosimpson)
 
+## the Setup
+
+[The Setup](/theSetup/.html)
+
 ## Blog
 
 [All posts](/blog.html)
+
 
 ## Projects
 
