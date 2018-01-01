@@ -3,7 +3,10 @@ theme: jekyll-theme-cayman
 title: Kikkoman
 description: Free static blog host on Github?
 
+# tell it to use kramdown so that I can get a Table of Content "macro"
+markdown: kramdown
+
+# define "theSetup" as a collection so that it will render those pages
 collections:
   theSetup :
     output: true
-
