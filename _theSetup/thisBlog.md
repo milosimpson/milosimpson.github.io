@@ -19,14 +19,14 @@ Two be fair it took me two and a half full "sittings" to get this working.   I f
 
 Jekyll is a Ruby based tool that combines the following :
 * Code "stuff"
- * A templating language called [Liquid](https://jekyllrb.com/docs/templates/)
- * Directory scanning logic
- * Markdown -> Html logic
- * Yaml parser used to control and feed data into the templating language
+	* A templating language called [Liquid](https://jekyllrb.com/docs/templates/)
+    * Directory scanning logic
+    * Markdown -> Html logic
+    * Yaml parser used to control and feed data into the templating language
 * Convention "stuff"
- * a top level config file of "_config.yml".
- * a directory structure of where to find posts, includes etc
- * a "header" section of each of your files/posts to define "variables" that the templating engine can reference.
+	* a top level config file of "_config.yml".
+    * a directory structure of where to find posts, includes etc
+    * a "header" section of each of your files/posts to define "variables" that the templating engine can reference.
        
 In Practice this means Jekyll
 * scans the directories and loads all the "documents" into memory
@@ -38,10 +38,13 @@ In Practice this means Jekyll
 
 
 	{% raw  %}
-	{% for post in site.posts %}
-    	<a href="{{ page.url }}">{{ page.title }}</a>
-    {% endfor %}
-	{% endraw %}
+    Blog Entries
+    <ul>
+		{% for post in site.posts %}
+    		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    	{% endfor %}
+	</ul>
+    {% endraw %}
 
 * the "prettiness" of the HTML is generally by controlling the CSS in the "_includes" directory.
 
@@ -55,7 +58,7 @@ So step 1) get it so that you can author the content, then step 2) make it prett
 ## Editing
 
 Github is awesome.  It can run Jekyll automatically for you to generate the pages.
-* https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+* [https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/]()
 
 Editing : Well I can edit with Intellij and do the whole edit/commit/push cycle OR I can just edit markdown in a nice tool : [prose.io](http://prose.io/#about).
 
@@ -66,5 +69,3 @@ Editing : Well I can edit with Intellij and do the whole edit/commit/push cycle 
 - How to escape liquid template tags?
 	- So that I can put example stuff in a code block
     - [https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags]()
-
-
