@@ -2,7 +2,7 @@
 layout: default
 title: This Blog
 hook: How to setup this Site.
-published: false
+published: true
 ---
 Testing a table of contents.
 {:toc}
