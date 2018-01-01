@@ -32,7 +32,7 @@ Jekyll is a Ruby based tool that combines the following :
     * a directory structure of where to find posts, includes etc
     * a "header" section of each of your files/posts to define "variables" that the templating engine can reference.
        
-In Practice this means Jekyll
+In Practice this means Jekyll :
 * scans the directories and loads all the "documents" into memory
 	* or at this point just the "metadata" of the files: filename and the yaml headers 
 * once it has a "holistic" view of all the data, it can do the Markdown to Html rendering
@@ -74,7 +74,7 @@ Editing : Well I can edit with Intellij and do the whole edit/commit/push cycle 
 - Table of Contents : 
 	- Did not work :( - [http://www.seanbuscay.com/blog/jekyll-toc-markdown/](http://www.seanbuscay.com/blog/jekyll-toc-markdown/)
     - Did work but annoying - [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
-- KramDown Docs :  [https://kramdown.gettalong.org/quickref.html]()
+- KramDown Docs :  [https://kramdown.gettalong.org/quickref.html](https://kramdown.gettalong.org/quickref.html)
 - How to escape liquid template tags?
 	- So that I can put example stuff in a code block
     - [https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags](https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags)
