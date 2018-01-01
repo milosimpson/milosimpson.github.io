@@ -2,7 +2,7 @@
 layout: default
 title: This Blog
 hook: How to setup this Site.
-published: true
+published: false
 ---
 Testing a table of contents.
 {:toc}
@@ -17,16 +17,16 @@ Two be fair it took me two and a half full "sittings" to get this working.   I f
 
 ## Jekyll In a Nutshell
 
-Jekyll is a Ruby based tool that combines the following 
-   * Code "stuff"
-	   * A templating language
-       * Directory scanning logic
-       * Markdown -> Html logic
-       * Yaml parser used to control and feed data into the templating language
-   * Convention "stuff"
-	   * a top level config file of "_config.yml".
-       * a directory structure of where to find posts, includes etc
-       * a "header" section of each of your files/posts to define "variables" that the templating engine can reference.
+Jekyll is a Ruby based tool that combines the following :
+* Code "stuff"
+ * A templating language called [Liquid](https://jekyllrb.com/docs/templates/)
+ * Directory scanning logic
+ * Markdown -> Html logic
+ * Yaml parser used to control and feed data into the templating language
+* Convention "stuff"
+ * a top level config file of "_config.yml".
+ * a directory structure of where to find posts, includes etc
+ * a "header" section of each of your files/posts to define "variables" that the templating engine can reference.
        
 In Practice this means Jekyll
 * scans the directories and loads all the "documents" into memory
@@ -36,9 +36,12 @@ In Practice this means Jekyll
 	* a standard blog post typically doesn't have any "templage" language in it
 * thus the actuall building of "the page" that lists all the blog items is template logic that loops over all the "posts" found off the filesystem
 
+
+	{% raw  %}
 	{% for post in site.posts %}
     	<a href="{{ page.url }}">{{ page.title }}</a>
     {% endfor %}
+	{% endraw %}
 
 * the "prettiness" of the HTML is generally by controlling the CSS in the "_includes" directory.
 
@@ -60,5 +63,8 @@ Editing : Well I can edit with Intellij and do the whole edit/commit/push cycle 
 
 - Table of Contents : [http://www.seanbuscay.com/blog/jekyll-toc-markdown/]()
 - KramDown Docs :  [https://kramdown.gettalong.org/quickref.html]()
+- How to escape liquid template tags?
+	- So that I can put example stuff in a code block
+    - [https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags]()
 
 
