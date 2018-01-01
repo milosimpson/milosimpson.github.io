@@ -39,18 +39,14 @@ In Practice this means Jekyll
 	* the "top level" pages tend to to have the "templating logic" in them
 	* a standard blog post typically doesn't have any "templage" language in it
 * thus the actuall building of "the page" that lists all the blog items is template logic that loops over all the "posts" found off the filesystem
-
-```
-{% raw %}
-Blog Entries
+```html
+{% raw %}Blog Entries
 <ul>
-	{% for post in site.posts %}
-		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-	{% endfor %}
-</ul>
-{% endraw %}
+  {% for post in site.posts %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ul>{% endraw %}
 ```
-
 * the "prettiness" of the HTML is generally by controlling the CSS in the "_includes" directory.
 
 ## What Jekyll Doesn't Do
