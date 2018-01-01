@@ -39,6 +39,7 @@ In Practice this means Jekyll
 	* the "top level" pages tend to to have the "templating logic" in them
 	* a standard blog post typically doesn't have any "templage" language in it
 * thus the actuall building of "the page" that lists all the blog items is template logic that loops over all the "posts" found off the filesystem
+
 ```html
 {% raw %}Blog Entries
 <ul>
