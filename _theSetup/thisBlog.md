@@ -4,8 +4,12 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
-Testing a table of contents.
-{:toc}
+## Table of Contents
+- [High level](#high-level)
+- [Jekyll In a Nutshell](#jekyll-in-a-nutshell)
+- [What Jekyll Doesn't Do](#what-jekyll-doesn-t-do)
+- [Editing](#editing)
+- [Authoring](#authoring)
 
 ## High level
 
@@ -36,35 +40,39 @@ In Practice this means Jekyll
 	* a standard blog post typically doesn't have any "templage" language in it
 * thus the actuall building of "the page" that lists all the blog items is template logic that loops over all the "posts" found off the filesystem
 
-
-	{% raw  %}
-    Blog Entries
-    <ul>
-		{% for post in site.posts %}
-    		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    	{% endfor %}
-	</ul>
-    {% endraw %}
+```
+Blog Entries
+<ul>
+	{% for post in site.posts %}
+		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	{% endfor %}
+</ul>
+```
 
 * the "prettiness" of the HTML is generally by controlling the CSS in the "_includes" directory.
 
-## What Jekyll doesn't do
+## What Jekyll Doesn't Do
 
 Any of the html prettiness.   Dealing with CSS or Bootstrap. etc   
 That is where Jekyll themes come in.
 
-So step 1) get it so that you can author the content, then step 2) make it prettier.
+So ...
+1. get it so that you can author the content, then 
+2. make it pretty.
 
 ## Editing
 
 Github is awesome.  It can run Jekyll automatically for you to generate the pages.
 * [https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/]()
+* things you can and can not change [https://help.github.com/articles/configuring-jekyll/]()
 
 Editing : Well I can edit with Intellij and do the whole edit/commit/push cycle OR I can just edit markdown in a nice tool : [prose.io](http://prose.io/#about).
 
 ## Authoring
 
-- Table of Contents : [http://www.seanbuscay.com/blog/jekyll-toc-markdown/]()
+- Table of Contents : 
+	- Did not work :( - [http://www.seanbuscay.com/blog/jekyll-toc-markdown/]()
+    - Did work but annoying - [https://ecotrust-canada.github.io/markdown-toc/]()
 - KramDown Docs :  [https://kramdown.gettalong.org/quickref.html]()
 - How to escape liquid template tags?
 	- So that I can put example stuff in a code block
