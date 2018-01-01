@@ -41,12 +41,14 @@ In Practice this means Jekyll
 * thus the actuall building of "the page" that lists all the blog items is template logic that loops over all the "posts" found off the filesystem
 
 ```
+{% raw %}
 Blog Entries
 <ul>
 	{% for post in site.posts %}
 		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
 	{% endfor %}
 </ul>
+{% endraw %}
 ```
 
 * the "prettiness" of the HTML is generally by controlling the CSS in the "_includes" directory.
@@ -63,17 +65,17 @@ So ...
 ## Editing
 
 Github is awesome.  It can run Jekyll automatically for you to generate the pages.
-* [https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/]()
-* things you can and can not change [https://help.github.com/articles/configuring-jekyll/]()
+* [https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
+* things you can and can not change [https://help.github.com/articles/configuring-jekyll/](https://help.github.com/articles/configuring-jekyll/)
 
 Editing : Well I can edit with Intellij and do the whole edit/commit/push cycle OR I can just edit markdown in a nice tool : [prose.io](http://prose.io/#about).
 
 ## Authoring
 
 - Table of Contents : 
-	- Did not work :( - [http://www.seanbuscay.com/blog/jekyll-toc-markdown/]()
-    - Did work but annoying - [https://ecotrust-canada.github.io/markdown-toc/]()
+	- Did not work :( - [http://www.seanbuscay.com/blog/jekyll-toc-markdown/](http://www.seanbuscay.com/blog/jekyll-toc-markdown/)
+    - Did work but annoying - [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
 - KramDown Docs :  [https://kramdown.gettalong.org/quickref.html]()
 - How to escape liquid template tags?
 	- So that I can put example stuff in a code block
-    - [https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags]()
+    - [https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags](https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags)
