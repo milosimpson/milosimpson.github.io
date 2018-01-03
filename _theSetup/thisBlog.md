@@ -4,13 +4,6 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
-## Manual Table of Contents
-- [High level](#high-level)
-- [Jekyll In a Nutshell](#jekyll-in-a-nutshell)
-- [What Jekyll Doesn't Do](#what-jekyll-doesn-t-do)
-- [Editing](#editing)
-- [Authoring](#authoring)
-
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
