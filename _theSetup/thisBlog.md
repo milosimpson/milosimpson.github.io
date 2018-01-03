@@ -4,7 +4,7 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
-* Will be replaced with the ToC, excluding the "Contents" header
+## Table of Contents
 {:toc}
 
 ## High level
