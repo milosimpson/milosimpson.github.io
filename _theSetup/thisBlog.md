@@ -4,9 +4,9 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
-{::comment} Special Kramdown way of having an HTML comment. {:/comment}
-{::comment} The actual header for "Table of Contents" should be excluded from the actual calculation of the Table-of-Content, so hit it with the "no_toc" {:/comment}
+{::comment} This is the special Kramdown way of having an HTML comment. {:/comment}
 
+{::comment} The actual header for "Table of Contents" should be excluded from the actual calculation of the Table-of-Content, so hit it with the "no_toc" {:/comment}
 ## Table of Contents
 {:.no_toc} 
 
@@ -20,6 +20,8 @@ published: true
 
 * Sacrificial un-ordered list for the toc "macro" to bind to
 {:toc}
+
+---
 
 ## High level
 
