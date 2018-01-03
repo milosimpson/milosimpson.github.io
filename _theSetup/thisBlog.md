@@ -4,8 +4,6 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
-Can I put any text above the t-o-c?
-
 {:toc}
 
 ## High level
