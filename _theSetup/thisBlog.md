@@ -4,6 +4,10 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
+# Table of Contents
+{:.no_toc}
+
+Sacrificial text
 {:toc}
 
 ## High level
