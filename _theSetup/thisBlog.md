@@ -4,9 +4,21 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
-# Table of Contents
+{::comment} Special Kramdown way of having an HTML comment. {:/comment}
+{::comment} The actual header for "Table of Contents" should be excluded from the actual calculation of the Table-of-Content, so hit it with the "no_toc" {:/comment}
 
-* Sacrificial un-ordered list
+## Table of Contents
+{:.no_toc} 
+
+{::comment}
+	Should the TOC be bullets or numbered items?  
+
+	You tell the TOC "macro" that by binding/affixing it to either an unordered list "*" or an ordered list "1." 
+
+	It will then replace the list entry with the auto-generated html table of contents.
+{:/comment}
+
+* Sacrificial un-ordered list for the toc "macro" to bind to
 {:toc}
 
 ## High level
