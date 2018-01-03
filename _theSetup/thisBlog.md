@@ -4,10 +4,8 @@ title: This Blog
 hook: How to setup this Site.
 published: true
 ---
-# Contents
-{:.no_toc}
+Can I put any text above the t-o-c?
 
-* Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
 ## High level
