@@ -5,9 +5,8 @@ hook: How to setup this Site.
 published: true
 ---
 # Table of Contents
-{:.no_toc}
 
-Sacrificial text
+* Sacrificial un-ordered list
 {:toc}
 
 ## High level
