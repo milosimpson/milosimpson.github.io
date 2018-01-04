@@ -18,7 +18,7 @@ published: true
 	It will then replace the list entry with the auto-generated html table of contents.
 {:/comment}
 
-* Sacrificial un-ordered list for the toc "macro" to bind to
+1. Sacrificial uordered list for the toc "macro" to bind to
 {:toc}
 
 ---
@@ -58,7 +58,7 @@ Example page that builds the list of all the blog entries.
 {% raw %}Blog Entries
 <ul>
   {% for post in site.posts %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>{% endraw %}
 ```
