@@ -26,7 +26,7 @@ published: true
 ## High level
 
 * Inpiration but dated, and I did not want to just start with a fork : [smashingmagazine article](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
-** got lost running Ruby and whatnot locally (sitting number 1)
+    * got lost running Ruby and whatnot locally (sitting number 1)
 * Read the [Jekyll docs](https://jekyllrb.com/).
 * Examined / cribbed [routley.io/](https://routley.io/) since he had a nice and simple site that looks like it was using GitHub to run Jekyll.
 * How to get [a Jekyll Collection working](https://www.sitepoint.com/getting-started-jekyll-collections/)
