@@ -1,7 +1,8 @@
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+remote_theme: maiconpinto/jekyll-theme-prettydocs
 
 title: Kikkoman
-description: Free static blog host on Github?
+description: Free static blog hosting via Github?
 
 # tell it to use kramdown so that I can get a Table of Content "macro"
 markdown: kramdown
