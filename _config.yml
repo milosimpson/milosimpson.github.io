@@ -8,7 +8,7 @@ description: Free static blog hosting via Github?
 
 #### Theme and Theme specific settings
 theme: jekyll-theme-slate
-show_downloads: false
+show_downloads: "false"
 
 
 #### Kikkoman specific settings
