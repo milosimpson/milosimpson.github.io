@@ -1,11 +1,17 @@
-theme: jekyll-theme-slate
-
-title: Kikkoman
-description: Free static blog hosting via Github?
-
+#### Tech things
 # tell it to use kramdown so that I can get a Table of Content "macro"
 markdown: kramdown
 
+#### Standard Things
+title: Kikkoman
+description: Free static blog hosting via Github?
+
+#### Theme and Theme specific settings
+theme: jekyll-theme-slate
+show_downloads: false
+
+
+#### Kikkoman specific settings
 # define "theSetup" as a collection so that it will render those pages
 collections:
   theSetup :
