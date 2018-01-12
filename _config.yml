@@ -1,5 +1,4 @@
-# theme: jekyll-theme-slate
-remote_theme: maiconpinto/jekyll-theme-prettydocs
+theme: jekyll-theme-slate
 
 title: Kikkoman
 description: Free static blog hosting via Github?
