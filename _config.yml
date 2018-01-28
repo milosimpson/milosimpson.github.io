@@ -16,3 +16,41 @@ show_downloads: false
 collections:
   theSetup :
     output: true
+
+## Configuring Prose ala
+## https://blog.webjeda.com/edit-posts-jekyll/ started with 
+## edited based on https://github.com/prose/prose/wiki/Prose-Configuration
+prose:
+  siteurl: 'https://milosimpson.github.io/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: '_media'
+  ignore:
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+    _theSetup:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
+
