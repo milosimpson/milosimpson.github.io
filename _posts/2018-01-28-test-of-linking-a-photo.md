@@ -1,6 +1,6 @@
 ---
-published: true
 layout: post
+published: true
 title: Setting up the ability to add photos to entries
 ---
 ## Reference
@@ -12,8 +12,5 @@ Does not work OOTB.  Or rather you can upload OOTB, but it doesn't render / 404'
 
 ## Configure Prose more in the Jekeyll config.yaml
 
+![2018-01-28-AlamoDraftHouse-door-to-nowhere.jpg]({{site.baseurl}}/_media/_posts/2018-01-28-AlamoDraftHouse-door-to-nowhere.jpg)
 
-
-
-
-![Door to nowhere on the backside of an Alamo Drafthouse]({{site.baseurl}}/_posts/2018-01-28-AlamoDraftHouse-door-to-nowhere.jpg)
