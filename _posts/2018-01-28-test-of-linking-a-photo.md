@@ -12,5 +12,7 @@ Does not work OOTB.  Or rather you can upload OOTB, but it doesn't render / 404'
 
 ## Configure Prose more in the Jekeyll config.yaml
 
-![2018-01-28-AlamoDraftHouse-door-to-nowhere.jpg]({{site.baseurl}}/_media/_posts/2018-01-28-AlamoDraftHouse-door-to-nowhere.jpg)
+## If this works ...
+
+![2018-01-28-AlamoDraftHouse-door-to-nowhere.jpg]({{site.baseurl}}/media/posts/2018-01-28-AlamoDraftHouse-door-to-nowhere.jpg)
 
