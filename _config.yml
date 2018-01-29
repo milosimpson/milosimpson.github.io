@@ -22,21 +22,15 @@ collections:
 ## edited based on https://github.com/prose/prose/wiki/Prose-Configuration
 prose:
   siteurl: 'https://milosimpson.github.io/'
-  # don't understand what this does
-  #relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-
-  # tell it where media files should be
-  #  should not be a dir like "_media" as that tells Jekyll it is a special dir
-  #  that should not be visible on the output side
+  # I don't know what this does
+  # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  
+  # Pro-Tip do not make your media dir start with an underscore ala _images
+  #  Jekyll will treat that as a special dir / non of the things in that dir will
+  #  be in visible in the output
   media: 'media'
   
-  ignore:
-    - /_layouts
-    - /_includes
-
   metadata:
-    # think this allows me to configure defaults prose to use for new files
-    # in each of the "sections"
     _posts:
       - name: "layout"
         field:
