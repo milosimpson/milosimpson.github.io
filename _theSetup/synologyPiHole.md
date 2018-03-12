@@ -55,7 +55,7 @@ Here is what I ended up doing
 
 ## 3) Docker keeps the NAS awake
 
-This was the "straw that broke the camel's back".  Previously, the NAS would spend most of it's life with the hard drives in hibernation, A) being quiet, and B) prolonging life.
+This was the "straw that broke the camel's back".  Previously, the NAS would spend most of its life with the hard drives in hibernation, A) being quiet, and B) prolonging life.
 
 I had the bright idea that I could "permanently" plug in a USB stick, and then "run the docker image" off the USB drive, thus allowing the main drives to spin down.
 
@@ -91,4 +91,3 @@ And lastly, configure your router to use the NAS as a DNS server.
     - this guy is running in host networking mode
 - [https://discourse.pi-hole.net/t/alternative-synology-installation-method/5454](https://discourse.pi-hole.net/t/alternative-synology-installation-method/5454)
 	- overly fancy setup, aka I don't need the lan ips that look stuff up
-
