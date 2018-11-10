@@ -76,7 +76,9 @@ cp -r /home/msimpson/.* .
 
 **Gotcha 2** :  Ssh will be grumpy with the new "windows" compatible "home" dir in that the new dir  has super open permissions.   Thus the trick is to leave the .ssh dir in the linux FS but make it available as a sym or hardlink from the windows dir.
 
-
+```
+ln -s /home/msimpson/.ssh /mnt/c/winux/msimpson/.ssh
+```
 
 ### Windows Setup
 
