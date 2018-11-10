@@ -54,7 +54,7 @@ Reference
 
 The idea is to use the same mechanism as resetting the linux user's password by logging in as "root", but then editing the /etc/passwd file to change the home directory.
 
-**Gotcha** : Linux needs to have created the directory on windows.   Aka I want to use "c:\winux\msimpson" as my home dir.   So in only create "C:\winux" in windows, and create the "msimpson" sub dir from linux.
+**Gotcha 1** :  Linux needs to have created the directory on windows.   Aka I want to use "c:\winux\msimpson" as my home dir.   So in only create "C:\winux" in windows, and create the "msimpson" sub dir from linux.
 
 ```
 # In PowerShell run as Administrator
@@ -71,8 +71,12 @@ ubuntu config --default-user msimpson
 # In new WSL session now logged in as msimpson
 pwd  # should say /mnt/c/winux/msimpson
 
-cp /home/msimpson/.* .
+cp -r /home/msimpson/.* .
 ```
+
+**Gotcha 2** :  Ssh will be grumpy with the new "windows" compatible "home" dir in that the new dir  has super open permissions.   Thus the trick is to leave the .ssh dir in the linux FS but make it available as a sym or hardlink from the windows dir.
+
+
 
 ### Windows Setup
 
