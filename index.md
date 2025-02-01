@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Milo Simpson | Milo Simpson
+title: Kikkoman.org
 published: true
 ---
 # Today I Learned
 
-[TIL](/til.html)
+[The Setup](/til.html)
 
 # Blog
 
