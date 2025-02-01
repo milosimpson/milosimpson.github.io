@@ -4,6 +4,8 @@ markdown: kramdown
 
 #### Standard Things
 title: Kikkoman
+# suppress the description by haveing it be blank?
+description: 
 
 #### Theme and Theme specific settings
 theme: jekyll-theme-slate
