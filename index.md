@@ -5,7 +5,7 @@ published: true
 ---
 # Today I Learned
 
-[The Setup](/til.html)
+[TIL](/til.html)
 
 # Blog
 
