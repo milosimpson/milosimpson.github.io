@@ -3,9 +3,9 @@
 markdown: kramdown
 
 #### Standard Things
-title: Kikkoman
+title: Kikkoman.org
 # suppress the description by haveing it be blank?
-description: 
+description: Milo's Stuff
 
 #### Theme and Theme specific settings
 theme: jekyll-theme-slate
@@ -17,6 +17,8 @@ show_downloads: false
 collections:
   theSetup :
     output: true
+  til :
+    output : true
 
 ## Configuring Prose ala
 ## https://blog.webjeda.com/edit-posts-jekyll/ started with 
