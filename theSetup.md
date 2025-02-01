@@ -4,7 +4,7 @@ layout: default
 
 # The Setup
 
-Documenting how I setup all the things.
+Place to document how various things are setup that is "latest" configuration.
 
 <ul>
 {% for page in site.theSetup %}
