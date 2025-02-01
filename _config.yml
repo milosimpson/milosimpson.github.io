@@ -4,7 +4,6 @@ markdown: kramdown
 
 #### Standard Things
 title: Kikkoman
-description: Free static blog hosting via Github?
 
 #### Theme and Theme specific settings
 theme: jekyll-theme-slate
@@ -21,7 +20,7 @@ collections:
 ## https://blog.webjeda.com/edit-posts-jekyll/ started with 
 ## edited based on https://github.com/prose/prose/wiki/Prose-Configuration
 prose:
-  siteurl: 'https://milosimpson.github.io/'
+  siteurl: 'https://kikkoman.org'
   # I don't know what this does
   # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   
