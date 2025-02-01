@@ -3,20 +3,19 @@ layout: default
 title: Milo Simpson | Milo Simpson
 published: true
 ---
+# Today I Learned
 
-# Milo Simpson
-
-- [GitHub](https://github.com/milosimpson)
-
-# The Setup
-
-[The Setup](/theSetup.html)
+[The Setup](/til.html)
 
 # Blog
 
 [All posts](/blog.html)
 
+# The Setup
 
-# Projects
+[The Setup](/theSetup.html)
 
-- [Jolt](https://github.com/bazaarvoice/jolt), a Java Json to Json transform tool
+# Github
+
+[This site](https://github.com/milosimpson/milosimpson.github.io)
+[Jolt](https://github.com/bazaarvoice/jolt), a Java Json to Json transform tool
