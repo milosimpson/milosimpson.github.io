@@ -47,3 +47,13 @@ prose:
           element: "text"
           label: "What is the hook?"
           value: ""
+    _til:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "hook"
+        field:
+          element: "text"
+          label: "What is the hook?"
+          value: ""
